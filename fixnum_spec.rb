@@ -6,10 +6,10 @@ RSpec.describe Fixnum do
 		expect(3.prev.prev).to eq(1)
 	end
 	it "has a method to skip that returns self + 2" do
-		expect(3.ship).to eq(5)
+		expect(3.skip).to eq(5)
 		expect(3.skip.skip).to eq(7)
 	end
-	it "has a method doube that doubles self" do
+	it "has a method double that doubles self" do
 		expect(3.double).to eq(6)
 		expect(3.double.double).to eq(12)
 	end
